@@ -3,8 +3,9 @@ import cloud from './cloud.svg'
 import kumo from './kumo.svg'
 import kumo2 from './kumo2.svg'
 import edy from './Edy.png'
-
 import './App.css';
+import { Link } from "react-router-dom";
+import React from "react"
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <header>
           <button className="about">about</button>
           <button>work</button>
-          <button>contack</button>
+          <Link to="/contact">contack</Link>
         </header>
         <img src={cloud} className="cloud1" alt="cloud" />
         <img src={kumo} className="cloud2" alt="cloud" />
