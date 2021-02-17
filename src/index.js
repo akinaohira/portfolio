@@ -1,20 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Conact from "./Contact.js"
+import Contact from "./components/Contact.js"
+import About from "./components/About.js"
+import Work from "./components/Work.js"
 
-const rout = document.getElementById('root')
+const root = document.getElementById('root')
 
 ReactDOM.render(
   <Router>
-    <App exact >
-      <Route path="/contact" component={Conact}></Route>
-    </App>
+    <Route exact path="/" component={App}></Route>
+    <Route path="/contact" component={Contact}></Route>
+    <Route path="/about" component={About}></Route>
+    <Route path="/work" component={Work}></Route>
   </Router>
-  , rout);
+  , root);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
