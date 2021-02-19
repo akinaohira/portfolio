@@ -9,30 +9,22 @@ import React from "react"
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <header>
-          <button className="about"><Link to="/about">about</Link></button>
-          <button><Link to="work">work</Link></button>
-          <button><Link to="/contact">contack</Link></button>
-
-        </header>
-        <img src={cloud} className="cloud1" alt="cloud" />
-        <img src={kumo} className="cloud2" alt="cloud" />
-        <img src={kumo2} className="cloud3" alt="cloud" />
-        <p className="name">
-          <span>Hello</span>,I'm Akina Ohira.
-        </p>
-        <p>Software Engineer, based on Tokyo, Japan</p>
-        <img alt="dog" src={edy} className="edy"></img>
-        <a
-          className="about_link"
-          target="_blank"
-        >
-          learn more about me
-        </a>
+    <div className="App-header">
+      <button><Link to="/contact">CONTACT</Link></button>
+      <div className="main_container">
+        <div>
+          <img src={cloud} className="cloud1" alt="cloud" />
+          <img src={kumo} className="cloud2" alt="cloud" />
+          <img src={kumo2} className="cloud3" alt="cloud" />
+        </div>
+        <div className="tittle">
+          <p className="name">
+            <span>Hello</span>,I'm Akina Ohira.<br />Software Engineer, based on Tokyo, Japan
+          </p>
+          <img alt="dog" src={edy} className="edy"></img>
+        </div>
       </div>
-
+      <button><Link to="/contact">CONTACT</Link></button>
     </div>
   );
 }

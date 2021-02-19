@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Contact from "./components/Contact.js"
-import About from "./components/About.js"
-import Work from "./components/Work.js"
+// import About from "./components/About.js"
+// import Work from "./components/Work.js"
 
 const root = document.getElementById('root')
 
@@ -14,8 +14,6 @@ ReactDOM.render(
   <Router>
     <Route exact path="/" component={App}></Route>
     <Route path="/contact" component={Contact}></Route>
-    <Route path="/about" component={About}></Route>
-    <Route path="/work" component={Work}></Route>
   </Router>
   , root);
 

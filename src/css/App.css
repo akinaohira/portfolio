@@ -1,7 +1,5 @@
 .App-header {
-  /* background-color: #fbb9b9; */
   background-color: #6795D1;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,11 +8,8 @@
   color: white;
   font-weight: 600;
   padding: 8px;
-}
-
-
-.App {
-  text-align: center;
+  min-height: 100vh;
+ 
 }
 
 .cloud1 {
@@ -83,6 +78,7 @@ p {
 
 span {
   font-weight: 800;
+  color:#fbb9b9;
 }
 
 button {
@@ -100,4 +96,30 @@ button {
 
 .edy {
   width: 300px;
+}
+
+.tittle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top:-250px;
+}
+
+.App-header a {
+  text-decoration: none;
+  border-radius: 48px;
+  background: linear-gradient(145deg, #6fa1df, #5e87bb);
+  box-shadow:  10px 10px 20px #5880b1, -10px -10px 20px #78adef;
+  color:whitesmoke;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.App-header a:hover{
+  transition-duration: 0.5s;
+  border-radius: 48px;
+  background: #6896D0;
+  box-shadow: inset 10px 10px 20px #5880b1, 
+            inset -10px -10px 20px #78adef;
 }
