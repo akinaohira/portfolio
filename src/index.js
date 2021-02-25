@@ -4,16 +4,18 @@ import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Contact from "./components/Contact.js"
-// import About from "./components/About.js"
-// import Work from "./components/Work.js"
+import Meditation from "./components/Meditation.js"
+import Shoes from "./components/Shoes.js"
+import Pashirin from "./components/Pashirin.js"
 
 const root = document.getElementById('root')
 
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={App}></Route>
-    <Route path="/contact" component={Contact}></Route>
+    <Route path="/meditaion" component={Meditation}></Route>
+    <Route path="/shoes" component={Shoes}></Route>
+    <Route path="/pashirin" component={Pashirin}></Route>
   </Router>
   , root);
 

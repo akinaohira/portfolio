@@ -1,5 +1,4 @@
 .App-header {
-  background-color: #6795D1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +8,12 @@
   font-weight: 600;
   padding: 8px;
   min-height: 100vh;
- 
+  transition: background 3s;
+}
+
+
+.moon {
+  transition: opacity 3s;
 }
 
 .cloud1 {
@@ -18,11 +22,15 @@
 
 
 @keyframes cloud1 {
-  from {
-    transform: translateX(500px);
+  0% {
+    transform: translateX(0);
   }
-  to {
-    transform: translateX(-800px);
+  50% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -30,43 +38,57 @@
 @media (prefers-reduced-motion: no-preference) {
   .cloud1 {
     animation: cloud1 infinite 20s ease-in-out;
+    transition: opacity 3s;
   }
 }
-
-
-
 .cloud2 {
   position: relative;
   top: 100px;
   animation: cloud2 infinite 20s ease-in-out;
+  transition: opacity 3s;
 }
 
 @keyframes cloud2 {
-  from {
+  0% {
     transform: translateX(0px);
   } 
-  to {
+  50% {
   transform: translateX(-400px);
+  }
+  100%{
+    transform: translateX(0px);
   }
 }
 
 .cloud3 {
   min-height: 30vh;
-  animation: cloud3 infinite 20s ease-in-out;
+  animation: cloud3 infinite 35s linear;
+  transition: opacity 3s;
 }
 
 @keyframes cloud3 {
   0% {
-    transform: translateX(-800px);
+    transform: translateX(0);
   }
 
-  50% {
-    transform: translateX(400px);
-  }
-
-  100% {
+  40% {
     transform:translateX(800px);
-    
+    opacity: 1;
+  }
+  41% {
+    transform:translateX(800px);
+    opacity: 0;
+  }
+
+  42% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  43% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -108,18 +130,65 @@ button {
 
 .App-header a {
   text-decoration: none;
-  border-radius: 48px;
-  background: linear-gradient(145deg, #6fa1df, #5e87bb);
-  box-shadow:  10px 10px 20px #5880b1, -10px -10px 20px #78adef;
-  color:whitesmoke;
-  padding: 12px 24px;
+  cursor: pointer;
+  color:white;
+
+}
+
+.frame {
+  width: 400px;
+}
+
+.frame:hover {
   cursor: pointer;
 }
 
-.App-header a:hover{
-  transition-duration: 0.5s;
-  border-radius: 48px;
-  background: #6896D0;
-  box-shadow: inset 10px 10px 20px #5880b1, 
-            inset -10px -10px 20px #78adef;
+.art_box {
+  display: flex;
+}
+
+.art_box img {
+  margin: 0 56px;
+  transition: all 1s ease-in-out;
+}
+
+.art_box img:hover {
+  transform: scale(1.2);
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moon {
+  position: absolute;
+  left: 60vw;
+}
+
+footer {
+  font-size: 18px;
+  color:pink;
+  display: flex;
+}
+
+
+/* each component css */
+
+.frame_indivisual {
+  min-height: 100vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.frame_indivisual > div {
+  background-image: "../img/frame.png";
+  display: flex;
+  align-items: center;
+}
+
+#root {
+  min-height: 100vh;
 }
