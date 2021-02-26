@@ -153,7 +153,7 @@ button {
 }
 
 .art_box img {
-  margin: 0 56px;
+  margin: 0 32px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -305,7 +305,7 @@ a:hover {
 }
 
 .meditation_img {
-  width:300px;
+  width:250px;
   border-radius: 4px;
 }
 
