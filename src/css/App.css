@@ -189,6 +189,14 @@ footer {
   align-items: center;
 }
 
+.frame_indivisual img {
+  width:300px;
+}
+
+.frame_indivisual p {
+  width: 45vw;
+}
 #root {
   min-height: 100vh;
 }
+
