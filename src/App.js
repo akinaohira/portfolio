@@ -42,8 +42,7 @@ function App() {
           <img style={{ opacity: color === "day" ? 1 : 0.5 }} src={cloud} className="cloud1" alt="cloud" />
           <img src={kumo} style={{ opacity: color === "day" ? 1 : 0.6 }} className="cloud2" alt="cloud" />
           <img src={kumo2} style={{ opacity: color === "day" ? 1 : 0.8 }} className="cloud3" alt="cloud" />
-          <img style={{ opacity: color === "day" ? 1 : 0.5 }} src={cloud} className="cloud1" alt="cloud" />
-          <img src={kumo} style={{ opacity: color === "day" ? 1 : 0.6 }} className="cloud2" alt="cloud" />
+          {/* <img style={{ opacity: color === "day" ? 1 : 0.5 }} src={cloud} className="cloud1" alt="cloud" /> */}
 
         </div>
         <div className="tittle">

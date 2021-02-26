@@ -26,7 +26,7 @@
 
 @keyframes cloud1 {
   0% {
-    transform: translateX(0);
+    transform: translateX(0) ;
   }
   50% {
     transform: translateX(-500px);
@@ -40,7 +40,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .cloud1 {
-    animation: cloud1 infinite 20s ease-in-out;
+    animation: cloud1 infinite 50s ease-in-out;
     transition: opacity 3s;
   }
 }
