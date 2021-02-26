@@ -180,22 +180,89 @@ footer {
   min-height: 100vh;
   display: flex;
   align-self: center;
-  justify-content: center;
 }
+
+
+#pashirin_back {
+  background:coral;
+}
+
+.icon {
+  color:white;
+  margin: 12px;
+  
+}
+
+
 
 .frame_indivisual > div {
-  background-image: "../img/frame.png";
   display: flex;
-  align-items: center;
+  margin: 0 auto;
 }
 
-.frame_indivisual img {
+.img_box {
   width:300px;
+  overflow: hidden;
+}
+
+.img_box img {
+  width: 100%;
 }
 
 .frame_indivisual p {
   width: 45vw;
 }
+
+.img_box {
+  display: flex;
+  align-items: center;
+}
+
+.exaplin_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:36px;
+}
+
+.exaplin_box h1 {
+  font-size: 48px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.exaplin_box p {
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-weight: 600;
+}
+
+.arrow_box {
+  display: flex;
+  align-items: center;
+  color:white;
+  margin-left: 36px;
+}
+
+a {
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+.app_detail_img {
+  width:120px;
+  height: 240px;
+  margin:24px;
+}
+
+#left_img {
+  margin-left:0 ;
+}
+
 #root {
   min-height: 100vh;
 }
