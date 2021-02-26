@@ -26,6 +26,15 @@ function Pashirin() {
         <div>
           <a href="https://youtu.be/gtWhv1qVqBQ?t=8"><Youtube className="icon" /></a>
           <a href="http://github.com/Pashirin/pashirin-frontend-new"><Github className="icon" /></a>
+          <div className="language" id="pashirin_language">
+            <p>Swift</p>
+            <p>SwiftUI</p>
+            <p>Firebase</p>
+            <p>StripeAPI</p>
+            <p>Pyhton</p>
+            <p>Figma</p>
+            <p>LottieFile</p>
+          </div>
         </div>
         <div>
           <img alt="pashirin" src={usePashirin} className="app_detail_img" id="left_img"></img>

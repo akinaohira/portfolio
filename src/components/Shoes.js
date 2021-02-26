@@ -21,12 +21,14 @@ function Shoes() {
         <div>
           <a href="https://shoes-rack.herokuapp.com/ "><Cloud className="icon" /></a>
           <a href="https://github.com/akinaohira/Shoes-Rack"><Github className="icon" /></a>
-        </div>
-        {/* <div className="detail_app">
-          <div>
-            <img alt="shoes" className="meditation_img" src={shoes} id="left_img"></img>
+          <div className="language" id="shoesRack_language">
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Knex</p>
+            <p>Postgres</p>
+            <p>Postgres</p>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   </div>

@@ -20,7 +20,7 @@ function Mycanvs() {
         <div>
           <a href="https://mycanvas.link/"><Cloud className="icon" /></a>
           <div className="language">
-            <p>Js</p>
+            <p>JavaScript</p>
             <p>React</p>
             <p>Firebase</p>
             <p>Design</p>

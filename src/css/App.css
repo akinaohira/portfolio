@@ -11,6 +11,9 @@
   transition: background 3s;
 }
 
+.incon_box a {
+  margin: 12px;
+}
 
 .moon {
   transition: opacity 3s;
@@ -99,7 +102,6 @@ p {
 }
 
 span {
-  font-weight: 800;
   color:#fbb9b9;
 }
 
@@ -126,7 +128,9 @@ button {
   flex-direction: column;
   align-items: center;
   top:-250px;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 .App-header a {
   text-decoration: none;
@@ -170,8 +174,13 @@ button {
 
 footer {
   font-size: 18px;
-  color:pink;
+  color:white;
   display: flex;
+}
+
+footer p {
+  margin: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -373,8 +382,28 @@ h1 {
 .language p {
   background:  #e8646f;
   border-radius: 500px;
-  padding: 8px;
+  padding: 8px 12px;
   font-size:12px;
   text-align: center;
   margin: 8px;
+  width: auto;
 }
+
+#meditation_language p {
+  color:white;
+}
+
+#shoesRack_language p {
+  background: black;
+  color:white;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+
+#pashirin_language p {
+  background:white;
+  color:gray;
+  padding: 8px 12px;
+}
+

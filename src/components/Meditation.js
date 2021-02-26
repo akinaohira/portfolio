@@ -22,7 +22,14 @@ function Meditaion() {
         <div>
           <a href="https://meditation-plum.vercel.app/"><Cloud className="icon" /></a>
           <a href="https://github.com/akinaohira/Meditaion-room"><Github className="icon" /></a>
+          <div className="language" id="meditation_language">
+            <p>ReasonMl</p>
+            <p>ReasonReact</p>
+            <p>CSS animation</p>
+            <p>Figma</p>
+          </div>
         </div>
+
         <div className="detail_app">
           <div>
             <img alt="meditaions" className="meditation_img" src={meditation} id="left_img"></img>
