@@ -150,11 +150,11 @@ button {
 
 .art_box img {
   margin: 0 56px;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .art_box img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .main_container {
@@ -323,4 +323,58 @@ h1 {
 
 .headspace {
   color:#e8646f;
+}
+
+#shoes_rack p {
+  color:black;
+}
+#shoes_rack a {
+  color:black;
+}
+#shoes_rack h1 {
+  color:black;
+}
+
+#shoes_rack .icon {
+  color:black;
+}
+
+#shoes_rack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#shoes_rack_box {
+  display: flex;
+}
+
+.arrow_box {
+  display: flex;
+  align-items: center;
+}
+
+#shoes_rack_expalin {
+  width: 500px;
+}
+
+#mycanvas {
+  background: #FBB9B9;
+}
+
+.detail_app {
+  display: flex;
+}
+
+.language {
+  display: flex;
+}
+
+.language p {
+  background:  #e8646f;
+  border-radius: 500px;
+  padding: 8px;
+  font-size:12px;
+  text-align: center;
+  margin: 8px;
 }

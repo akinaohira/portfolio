@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import frame from "../img/frame2.svg"
-
 import { ReactComponent as Github } from "../img/github.svg"
 import { ReactComponent as LeftArrow } from "../img/arrow-left.svg"
 import { ReactComponent as Cloud } from "../img/cloud-icon.svg"
