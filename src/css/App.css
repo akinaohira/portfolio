@@ -145,6 +145,7 @@ button {
 
 .art_box {
   display: flex;
+  align-items: center;
 }
 
 .art_box img {
@@ -263,7 +264,63 @@ a:hover {
   margin-left:0 ;
 }
 
+
+#pashirin_home {
+  width: 300px
+}
+
 #root {
   min-height: 100vh;
 }
 
+
+#meditation {
+  background: #FEDEA6;
+}
+
+#meditation h1 {
+  color:#e8646f;
+}
+
+#meditation p {
+  color:#e8646f;
+}
+
+#meditation .icon  {
+  color:#e8646f;
+}
+
+
+#meditation .arrow_box {
+  color:#e8646f;
+}
+
+.meditation_img {
+  width:300px;
+  border-radius: 4px;
+}
+
+#web_img {
+  width:700px;
+}
+
+#web_img img {
+  border-radius: 4px;
+}
+
+.detail_app {
+  display:flex;
+  align-items: center;
+}
+
+.meditation_img {
+  margin: 24px;
+}
+
+h1 {
+  margin-bottom:0 ;
+}
+
+.headspace {
+  color:#e8646f;
+}

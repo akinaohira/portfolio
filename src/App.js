@@ -52,8 +52,8 @@ function App() {
         <div className="art_box">
           <Link to="/meditaion"><img alt="frame" src={frame2} className="frame" ></img></Link>
           {/* <img alt="frame" src={cloud_mi} className="frame" ></img> */}
-          <Link to="/shoes"><img alt="frame" src={frame3} className="frame"></img></Link>
-          <Link to="/pashirin"><img src={pashirin} alt="pashirin" className="frame"></img></Link>
+          <Link to="/shoes"><img alt="frame" src={frame3} className="frame" ></img></Link>
+          <Link to="/pashirin"><img src={pashirin} alt="pashirin" className="frame" id="pashirin_home"></img></Link>
           {/* <img alt="frame" src={frame4} className="frame" ></img> */}
         </div>
       </div>
