@@ -140,7 +140,7 @@ button {
 }
 
 .frame {
-  width: 400px;
+  width: 300px;
 }
 
 .frame:hover {
@@ -310,7 +310,7 @@ a:hover {
 }
 
 #web_img {
-  width:700px;
+  width:600px;
 }
 
 #web_img img {
