@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Meditation from "./components/Meditation.js"
 import Shoes from "./components/Shoes.js"
 import Pashirin from "./components/Pashirin.js"
+import Mycanvas from "./components/Mycanvas.js"
 
 const root = document.getElementById('root')
 
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Route path="/meditaion" component={Meditation}></Route>
     <Route path="/shoes" component={Shoes}></Route>
     <Route path="/pashirin" component={Pashirin}></Route>
+    <Route path="/mycanvas" component={Mycanvas}></Route>
   </Router>
   , root);
 

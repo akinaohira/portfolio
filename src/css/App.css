@@ -11,6 +11,9 @@
   transition: background 3s;
 }
 
+.incon_box a {
+  margin: 12px;
+}
 
 .moon {
   transition: opacity 3s;
@@ -23,7 +26,7 @@
 
 @keyframes cloud1 {
   0% {
-    transform: translateX(0);
+    transform: translateX(0) ;
   }
   50% {
     transform: translateX(-500px);
@@ -37,7 +40,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .cloud1 {
-    animation: cloud1 infinite 20s ease-in-out;
+    animation: cloud1 infinite 50s ease-in-out;
     transition: opacity 3s;
   }
 }
@@ -99,7 +102,6 @@ p {
 }
 
 span {
-  font-weight: 800;
   color:#fbb9b9;
 }
 
@@ -126,7 +128,9 @@ button {
   flex-direction: column;
   align-items: center;
   top:-250px;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 .App-header a {
   text-decoration: none;
@@ -145,15 +149,16 @@ button {
 
 .art_box {
   display: flex;
+  align-items: center;
 }
 
 .art_box img {
   margin: 0 56px;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .art_box img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .main_container {
@@ -169,8 +174,13 @@ button {
 
 footer {
   font-size: 18px;
-  color:pink;
+  color:white;
   display: flex;
+}
+
+footer p {
+  margin: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -180,23 +190,226 @@ footer {
   min-height: 100vh;
   display: flex;
   align-self: center;
-  justify-content: center;
 }
+
+
+#pashirin_back {
+  background:coral;
+}
+
+.icon {
+  color:white;
+  margin: 12px;
+  
+}
+
+
 
 .frame_indivisual > div {
-  background-image: "../img/frame.png";
   display: flex;
-  align-items: center;
+  margin: 0 auto;
 }
 
-.frame_indivisual img {
+.img_box {
   width:300px;
+  overflow: hidden;
+}
+
+.img_box img {
+  width: 100%;
 }
 
 .frame_indivisual p {
   width: 45vw;
 }
+
+.img_box {
+  display: flex;
+  align-items: center;
+}
+
+.exaplin_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:36px;
+}
+
+.exaplin_box h1 {
+  font-size: 48px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.exaplin_box p {
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-weight: 600;
+}
+
+.arrow_box {
+  display: flex;
+  align-items: center;
+  color:white;
+  margin-left: 36px;
+}
+
+a {
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+.app_detail_img {
+  width:120px;
+  height: 240px;
+  margin:24px;
+}
+
+#left_img {
+  margin-left:0 ;
+}
+
+
+#pashirin_home {
+  width: 300px
+}
+
 #root {
   min-height: 100vh;
 }
 
+
+#meditation {
+  background: #FEDEA6;
+}
+
+#meditation h1 {
+  color:#e8646f;
+}
+
+#meditation p {
+  color:#e8646f;
+}
+
+#meditation .icon  {
+  color:#e8646f;
+}
+
+
+#meditation .arrow_box {
+  color:#e8646f;
+}
+
+.meditation_img {
+  width:300px;
+  border-radius: 4px;
+}
+
+#web_img {
+  width:700px;
+}
+
+#web_img img {
+  border-radius: 4px;
+}
+
+.detail_app {
+  display:flex;
+  align-items: center;
+}
+
+.meditation_img {
+  margin: 24px;
+}
+
+h1 {
+  margin-bottom:0 ;
+}
+
+.headspace {
+  color:#e8646f;
+}
+
+#shoes_rack p {
+  color:black;
+}
+#shoes_rack a {
+  color:black;
+}
+#shoes_rack h1 {
+  color:black;
+}
+
+#shoes_rack .icon {
+  color:black;
+}
+
+#shoes_rack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#shoes_rack_box {
+  display: flex;
+}
+
+.arrow_box {
+  display: flex;
+  align-items: center;
+}
+
+#shoes_rack_expalin {
+  width: 500px;
+}
+
+#mycanvas {
+  background: #FBB9B9;
+}
+
+.detail_app {
+  display: flex;
+}
+
+.language {
+  display: flex;
+}
+
+.language p {
+  background:  #e8646f;
+  border-radius: 500px;
+  padding: 8px 12px;
+  font-size:12px;
+  text-align: center;
+  margin: 8px;
+  width: auto;
+}
+
+#meditation_language p {
+  color:white;
+}
+
+#shoesRack_language p {
+  background: black;
+  color:white;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+
+#pashirin_language p {
+  background:white;
+  color:gray;
+  padding: 8px 12px;
+}
+
+@media screen and  (max-width: 1100px) {
+  .art_box {
+    display: none;
+  }
+
+}
