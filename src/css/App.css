@@ -140,7 +140,7 @@ button {
 }
 
 .frame {
-  width: 400px;
+  width: 300px;
 }
 
 .frame:hover {
@@ -153,7 +153,7 @@ button {
 }
 
 .art_box img {
-  margin: 0 56px;
+  margin: 0 42px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -408,8 +408,5 @@ h1 {
 }
 
 @media screen and  (max-width: 1100px) {
-  .art_box {
-    display: none;
-  }
-
+  
 }

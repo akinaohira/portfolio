@@ -31,7 +31,7 @@ function Pashirin() {
             <p>SwiftUI</p>
             <p>Firebase</p>
             <p>StripeAPI</p>
-            <p>Pyhton</p>
+            <p>Python</p>
             <p>Figma</p>
             <p>LottieFile</p>
           </div>
