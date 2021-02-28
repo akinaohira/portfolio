@@ -16,7 +16,7 @@ function Shoes() {
       </div>
       <div className="exaplin_box" id="shoes_rack_expalin">
         <h1>My Shoes Rack</h1>
-        <p>Store your favorite shoes detail like your family album.
+        <p>Presenting my favorite shoes, like a family album.
         </p>
         <div>
           <a href="https://shoes-rack.herokuapp.com/ "><Cloud className="icon" /></a>

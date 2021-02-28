@@ -198,9 +198,8 @@ footer p {
 }
 
 .icon {
-  color:white;
-  margin: 12px;
-  
+  color:white; 
+  margin-right: 8px;
 }
 
 
@@ -243,7 +242,7 @@ footer p {
 
 .exaplin_box p {
   font-size:18px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color:white;
   font-weight: 600;
 }
@@ -379,6 +378,8 @@ h1 {
   display: flex;
 }
 
+
+
 .language p {
   background:  #e8646f;
   border-radius: 500px;
@@ -388,6 +389,11 @@ h1 {
   margin: 8px;
   width: auto;
 }
+
+#language_first {
+  margin-left:0;
+}
+
 
 #meditation_language p {
   color:white;
@@ -407,6 +413,30 @@ h1 {
   padding: 8px 12px;
 }
 
-@media screen and  (max-width: 1100px) {
+/* @media screen and  (max-width: 1100px) {
   
+} */
+
+.visit {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+#visit_meditaion {
+  color:#e8646f;
+}
+
+
+.icon_box {
+  display: flex;
+}
+
+.icon_box :last-child {
+  margin-left:12px ;
+}
+
+#icon_first {
+  margin-left:0;
 }

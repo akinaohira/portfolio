@@ -47,7 +47,7 @@ function App() {
         </div>
         <div className="tittle">
           <p className="name">
-            <span>Hello</span>, I'm Akina Ohira.<br />Software Engineer, based in Tokyo, Japan<br />Open for work opportunities!
+            <span>Hello</span>I'm Akina Ohira.<br />I'm a Software Engineer based in Tokyo.<br />Open for work opportunities!
           </p>
           <div className="incon_box">
             <a href="https://github.com/akinaohira"><Github /> </a>
