@@ -17,7 +17,7 @@ function Pashirin() {
   return <div>
     <div className="frame_indivisual" id="pashirin_back">
       <Link to="/" className="arrow_box"><LeftArrow className="arrow_icon" />Back to Home </Link>
-      <div>
+      <div className="pashi_container">
         <div className="img_box">
           <img src={pashirinFlash} alt="frame"></img>
         </div>
