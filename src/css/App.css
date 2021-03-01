@@ -546,4 +546,53 @@ h1 {
         transform: translateX(0);
       }
     }
+
+    .frame_indivisual {
+      flex-direction: column;
+    }
+
+    #web_img {
+      width:300px;
+    }
+
+    .detail_app {
+      flex-direction: column;
+    }
+
+    .container {
+      margin-top: 12px;
+    }
+
+    .frame_indivisual > div {
+      margin:12px 0 0 0;
+    }
+    
+    .exaplin_box h1 {
+      font-size: 24px;
+    }
+
+    .exaplin_box p {
+      font-weight:300;
+      width:auto;
+    }
+
+    .language {
+      display:flex;
+      justify-content: space-around;
+    }
+
+    .language p {
+      margin:0;
+      font-size:8px;
+    }
+
+    .visit {
+      font-size: 18px;
+    }
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
 }
+

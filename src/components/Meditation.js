@@ -22,16 +22,17 @@ function Meditaion() {
           <p>A web application for weekly meditation, inspired by <a href="https://www.headspace.com/" className="headspace">Headspace.</a><br /> Created all the graphics with Figma, exported as SVGs and animated with CSS animations.
         </p>
           <div>
-            <div className="icon_box">
-              <a href="https://meditation-plum.vercel.app/" className="visit" id="visit_meditaion"><Cloud className="icon" id="icon_first" />Visit App</a>
-              <a href="https://github.com/akinaohira/Meditaion-room" className="visit" id="visit_meditaion"><Github className="icon" />Github</a>
-            </div>
             <div className="language" id="meditation_language">
               <p id="language_first">ReasonMl</p>
               <p>ReasonReact</p>
               <p>CSS animation</p>
               <p>Figma</p>
             </div>
+            <div className="icon_box">
+              <a href="https://meditation-plum.vercel.app/" className="visit" id="visit_meditaion"><Cloud className="icon" id="icon_first" />Visit App</a>
+              <a href="https://github.com/akinaohira/Meditaion-room" className="visit" id="visit_meditaion"><Github className="icon" />Github</a>
+            </div>
+
           </div>
 
           <div className="detail_app">
