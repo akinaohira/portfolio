@@ -140,7 +140,7 @@ button {
 }
 
 .frame {
-  width: 400px;
+  width: 300px;
 }
 
 .frame:hover {
@@ -153,7 +153,7 @@ button {
 }
 
 .art_box img {
-  margin: 0 56px;
+  margin: 0 42px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -174,8 +174,9 @@ button {
 
 footer {
   font-size: 18px;
-  color:white;
+  /* color:white; */
   display: flex;
+  justify-content: center;
 }
 
 footer p {
@@ -186,8 +187,13 @@ footer p {
 
 /* each component css */
 
+.container {
+  display: flex;
+  flex-direction:column ;
+  padding: 36px;
+}
 .frame_indivisual {
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   align-self: center;
 }
@@ -198,9 +204,8 @@ footer p {
 }
 
 .icon {
-  color:white;
-  margin: 12px;
-  
+  color:white; 
+  margin-right: 8px;
 }
 
 
@@ -231,8 +236,7 @@ footer p {
 .exaplin_box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left:36px;
+  
 }
 
 .exaplin_box h1 {
@@ -243,7 +247,7 @@ footer p {
 
 .exaplin_box p {
   font-size:18px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color:white;
   font-weight: 600;
 }
@@ -255,11 +259,11 @@ footer p {
   margin-left: 36px;
 }
 
-a {
+.frame {
   transition: all 0.5s ease-in-out;
 }
 
-a:hover {
+.frame:hover {
   transform: scale(1.2);
 }
 
@@ -377,7 +381,10 @@ h1 {
 
 .language {
   display: flex;
+  margin-bottom: 24px;
 }
+
+
 
 .language p {
   background:  #e8646f;
@@ -388,6 +395,11 @@ h1 {
   margin: 8px;
   width: auto;
 }
+
+#language_first {
+  margin-left:0;
+}
+
 
 #meditation_language p {
   color:white;
@@ -407,9 +419,203 @@ h1 {
   padding: 8px 12px;
 }
 
-@media screen and  (max-width: 1100px) {
-  .art_box {
-    display: none;
+/* @media screen and  (max-width: 1100px) {
+  
+} */
+
+.visit {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+#visit_meditaion {
+  color:#e8646f;
+}
+
+
+.icon_box {
+  display: flex;
+  margin-top: 24px;
+}
+
+.icon_box :last-child {
+  margin-left:12px ;
+}
+
+#icon_first {
+  margin-left:0;
+}
+
+.pahsirin_explain {
+  display: flex;
+  flex-direction: column;
+  color:white;
+  justify-content :center;
+  margin-left:36px ;
+}
+
+#visit_pashirin {
+  color:white;
+}
+
+
+
+/* mobile size */
+@media screen and (min-width:350px) and (max-width:420px) {
+    .art_box {
+      flex-direction: column;
+      position: relative;
+      top:-120px;
+    }
+
+    footer {
+      flex-direction: column;
+      font-size: 12px;
+
+    }
+
+    footer p {
+      margin: 8px;
+      text-align: center;
+    }
+
+    .art_box img  {
+      margin: 12px;
+    }
+
+    .main_container {
+      max-width: 420px;
+    }
+
+    .moon {
+      width: 80px;
+    }
+
+    @keyframes cloud1 {
+      0% {
+        transform: translateX(0) ;
+      }
+      50% {
+        transform: translateX(-240px);
+      }
+    
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes cloud2 {
+      0% {
+        transform: translateX(0px);
+      } 
+      50% {
+      transform: translateX(-300px);
+      }
+      100%{
+        transform: translateX(0px);
+      }
+    }
+    .cloud3 {
+      width:250px;
+    } 
+
+    @keyframes cloud3 {
+      0% {
+        transform: translateX(0);
+      }
+    
+      40% {
+        transform:translateX(320px);
+        opacity: 1;
+      }
+      41% {
+        transform:translateX(320px);
+        opacity: 0;
+      }
+    
+      42% {
+        opacity: 0;
+        transform: translateX(-2000px);
+      }
+      43% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    .frame_indivisual {
+      flex-direction: column;
+    }
+
+    #web_img {
+      width:300px;
+    }
+
+    .detail_app {
+      flex-direction: column;
+    }
+
+    .container {
+      margin-top: 12px;
+      /* padding: 0; */
+    }
+
+
+    .frame_indivisual > div {
+      margin:12px 0 0 0;
+    }
+    
+    .exaplin_box h1 {
+      font-size: 24px;
+    }
+
+    .exaplin_box p {
+      font-weight:300;
+      width:auto;
+    }
+
+    .language {
+      display:flex;
+      justify-content: space-around;
+    }
+
+    .language p {
+      margin:0;
+      font-size:8px;
+    }
+
+    .visit {
+      font-size: 18px;
+    }
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .pashi_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px;
+    }
+    
+  .img_box {
+    width:200px;
   }
 
+  .pahsirin_explain h1  {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #pashirin_language {
+    max-width: 240px;
+    overflow-wrap: normal;
+  }
 }
+

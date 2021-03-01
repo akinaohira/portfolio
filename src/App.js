@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useEffect, useRef, useState } from "react"
+import React, { useEffect, useState } from "react"
 import cloud from './img/cloud.svg'
 import kumo from './img/kumo.svg'
 import kumo2 from './img/kumo2.svg'
@@ -14,6 +14,7 @@ import { ReactComponent as Github } from "./img/github.svg"
 import { ReactComponent as LinkedIn } from "./img/linkedin.svg"
 import { ReactComponent as Mail } from "./img/mail.svg"
 import { ReactComponent as Resume } from "./img/briefcase.svg"
+import Footer from "./components/Footer"
 
 function App() {
   const [color, setColor] = useState("day")
@@ -47,7 +48,7 @@ function App() {
         </div>
         <div className="tittle">
           <p className="name">
-            <span>Hello</span>, I'm Akina Ohira.<br />Software Engineer, based in Tokyo, Japan<br />Open for work opportunities!
+            <span>Hello</span>I'm Akina Ohira.<br />I'm a Software Engineer based in Tokyo.<br />Open for work opportunities!
           </p>
           <div className="incon_box">
             <a href="https://github.com/akinaohira"><Github /> </a>
@@ -64,11 +65,7 @@ function App() {
           <Link to="/mycanvas"><img src={mycanvs} alt="pashirin" className="frame" id="pashirin_home"></img></Link>
         </div>
       </div>
-      <footer>
-        <p>@2021 Akina Ohira
-        </p>
-        <p >akina568325@gmail.com</p>
-      </footer>
+      <Footer />
     </ div >
   );
 }
