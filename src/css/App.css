@@ -174,8 +174,9 @@ button {
 
 footer {
   font-size: 18px;
-  color:white;
+  /* color:white; */
   display: flex;
+  justify-content: center;
 }
 
 footer p {
@@ -192,7 +193,7 @@ footer p {
   padding: 36px;
 }
 .frame_indivisual {
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   align-self: center;
 }
@@ -457,4 +458,92 @@ h1 {
 
 #visit_pashirin {
   color:white;
+}
+
+
+
+/* mobile size */
+@media screen and (min-width:350px) and (max-width:420px) {
+    .art_box {
+      flex-direction: column;
+      position: relative;
+      top:-120px;
+    }
+
+    footer {
+      flex-direction: column;
+      font-size: 12px;
+
+    }
+
+    footer p {
+      margin: 8px;
+      text-align: center;
+    }
+
+    .art_box img  {
+      margin: 12px;
+    }
+
+    .main_container {
+      max-width: 420px;
+    }
+
+    .moon {
+      width: 80px;
+    }
+
+    @keyframes cloud1 {
+      0% {
+        transform: translateX(0) ;
+      }
+      50% {
+        transform: translateX(-240px);
+      }
+    
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes cloud2 {
+      0% {
+        transform: translateX(0px);
+      } 
+      50% {
+      transform: translateX(-300px);
+      }
+      100%{
+        transform: translateX(0px);
+      }
+    }
+    .cloud3 {
+      width:250px;
+    } 
+
+    @keyframes cloud3 {
+      0% {
+        transform: translateX(0);
+      }
+    
+      40% {
+        transform:translateX(320px);
+        opacity: 1;
+      }
+      41% {
+        transform:translateX(320px);
+        opacity: 0;
+      }
+    
+      42% {
+        opacity: 0;
+        transform: translateX(-2000px);
+      }
+      43% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
 }
