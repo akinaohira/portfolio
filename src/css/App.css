@@ -186,6 +186,11 @@ footer p {
 
 /* each component css */
 
+.container {
+  display: flex;
+  flex-direction:column ;
+  padding: 36px;
+}
 .frame_indivisual {
   min-height: 100vh;
   display: flex;
@@ -230,8 +235,7 @@ footer p {
 .exaplin_box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left:36px;
+  
 }
 
 .exaplin_box h1 {
@@ -254,11 +258,11 @@ footer p {
   margin-left: 36px;
 }
 
-a {
+.frame {
   transition: all 0.5s ease-in-out;
 }
 
-a:hover {
+.frame:hover {
   transform: scale(1.2);
 }
 
@@ -376,6 +380,7 @@ h1 {
 
 .language {
   display: flex;
+  margin-bottom: 24px;
 }
 
 
@@ -431,6 +436,7 @@ h1 {
 
 .icon_box {
   display: flex;
+  margin-top: 24px;
 }
 
 .icon_box :last-child {
@@ -439,4 +445,16 @@ h1 {
 
 #icon_first {
   margin-left:0;
+}
+
+.pahsirin_explain {
+  display: flex;
+  flex-direction: column;
+  color:white;
+  justify-content :center;
+  margin-left:36px ;
+}
+
+#visit_pashirin {
+  color:white;
 }

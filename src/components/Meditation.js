@@ -11,18 +11,18 @@ import blueOrangeMan from "../img/blueOrangeMan.svg"
 function Meditaion() {
   return <div className="frame_indivisual" id="meditation">
     <Link to="/" className="arrow_box"><LeftArrow className="arrow_icon" />Back to Home</Link>
-    <div>
+    <div className="container">
       <div className="img_box" id="web_img">
         <img src={meditation1} alt="frame"></img>
       </div>
       <div className="exaplin_box">
         <h1>Meditation Room</h1>
-        <p>A web application for weekly meditation, inspired by <a href="https://www.headspace.com/" className="headspace">Head Space.</a><br /> Created all the graphics with Figma, exported as SVGs and animated with CSS animations.
+        <p>A web application for weekly meditation, inspired by <a href="https://www.headspace.com/" className="headspace">Headspace.</a><br /> Created all the graphics with Figma, exported as SVGs and animated with CSS animations.
         </p>
         <div>
           <div className="icon_box">
             <a href="https://meditation-plum.vercel.app/" className="visit" id="visit_meditaion"><Cloud className="icon" id="icon_first" />Visit App</a>
-            <a href="https://github.com/akinaohira/Meditaion-room" className="visit" id="visit_meditaion"><Github className="icon" />github</a>
+            <a href="https://github.com/akinaohira/Meditaion-room" className="visit" id="visit_meditaion"><Github className="icon" />Github</a>
           </div>
           <div className="language" id="meditation_language">
             <p id="language_first">ReasonMl</p>

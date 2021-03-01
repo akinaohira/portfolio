@@ -10,17 +10,17 @@ import mycanvasLogin from "../img/mycanvas_login.png"
 function Mycanvs() {
   return <div className="frame_indivisual" id="mycanvas" >
     <Link to="/" className="arrow_box"><LeftArrow className="arrow_icon" /></Link>
-    <div>
+    <div className="container">
       <div className="img_box" id="web_img">
         <img alt="frame" src={mycanvas}></img>
       </div>
       <div className="exaplin_box" id="shoes_rack_expalin">
         <h1>My Canvas</h1>
         <p>Classroom progress management app.</p>
-        <div>
-          <a href="https://mycanvas.link/"><Cloud className="icon" /></a>
+        <div >
+          <a href="https://mycanvas.link/" className="visit" id="visit_pashirin"><Cloud className="icon" />Visit app</a>
           <div className="language">
-            <p>JavaScript</p>
+            <p id="language_first">JavaScript</p>
             <p>React</p>
             <p>Firebase</p>
             <p>Design</p>

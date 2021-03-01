@@ -19,15 +19,17 @@ function Pashirin() {
       <div className="img_box">
         <img src={pashirinFlash} alt="frame"></img>
       </div>
-      <div className="exaplin_box">
+      <div className="pahsirin_explain">
         <h1>Pashirin</h1>
         <p>iOS app that connects users who need help with something with people who can fulfill those    tasks, tracks deliveries by GPS, and enables payments using the Stripe API.
         </p>
         <div>
-          <a href="https://youtu.be/gtWhv1qVqBQ?t=8"><Youtube className="icon" /></a>
-          <a href="http://github.com/Pashirin/pashirin-frontend-new"><Github className="icon" /></a>
+          <div className="icon_box">
+            <a href="https://youtu.be/gtWhv1qVqBQ?t=8" className="visit" id="visit_pashirin"><Youtube className="icon" id="icon_first" />Visit Demo</a>
+            <a href="http://github.com/Pashirin/pashirin-frontend-new" className="visit" id="visit_pashirin"><Github className="icon" />Github</a>
+          </div>
           <div className="language" id="pashirin_language">
-            <p>Swift</p>
+            <p id="language_first">Swift</p>
             <p>SwiftUI</p>
             <p>Firebase</p>
             <p>StripeAPI</p>
